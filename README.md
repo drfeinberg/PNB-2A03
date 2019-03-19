@@ -1,3 +1,2 @@
 # Materials
-
-Course materials for COGS18: Introduction to Python. 
+Materials were adapted from: https://github.com/COGS18/Materials and https://automatetheboringstuff.com/
