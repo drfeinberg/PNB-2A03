@@ -1,0 +1,11 @@
+name: PNB-2A03-environment
+
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.7
+  - numpy
+  - pandas
+  - pip
+  - pip:
+- praat-parselmouth
