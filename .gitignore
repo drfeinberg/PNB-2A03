@@ -1,2 +1,4 @@
 # Ignore notebook checkpoint files
 .ipynb_checkpoints/*
+labs/*Answers*
+*/.ipynb_checkpoints
