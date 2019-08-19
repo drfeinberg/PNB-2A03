@@ -1,6 +1,6 @@
 # Ignore notebook checkpoint files
 .ipynb_checkpoints/*
 */.ipynb_checkpoints
+*/*.csv
 
-# Ignore any answers
-labs/*Answers*
+dir_to_ignore/
