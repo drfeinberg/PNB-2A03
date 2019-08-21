@@ -1,8 +1,0 @@
-2.9306 	WARNING 	The size of the gamma ramp was reported as 0. This can mean that gamma settings have no effect. Proceeding with a default gamma ramp size.
-2.9316 	WARNING 	The size of the gamma ramp was reported as 0. This can mean that gamma settings have no effect. Proceeding with a default gamma ramp size.
-3.2918 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f53bfb8dc50>, gamma=None, kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f53bf2fc128>, multiSample=False, name='window1', numSamples=2, pos=[640.0, 360.0], screen=0, size=array([1920, 1080]), stereo=False, units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
-3.2920 	EXP 	window1: recordFrameIntervals = False
-3.4581 	EXP 	window1: recordFrameIntervals = True
-3.6426 	EXP 	window1: recordFrameIntervals = False
-4.7289 	EXP 	Sound  set volume 1.000
-4.7757 	EXP 	window1: mouseVisible = True
