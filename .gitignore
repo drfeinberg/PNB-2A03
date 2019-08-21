@@ -2,5 +2,8 @@
 .ipynb_checkpoints/*
 */.ipynb_checkpoints
 */*.csv
-
+*/ __pycache__
+*/data
+*/data.csv
+*/data/*
 dir_to_ignore/
