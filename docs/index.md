@@ -12,4 +12,4 @@
 <li><a href="https://drfeinberg.github.io/PNB-2A03/Psychopy-2-Responses.html" target="_blank">09-Psychopy 2 - Responses</a></li>  
 <li><a href="https://drfeinberg.github.io/PNB-2A03/Class-10-ExploringDataInPandas.html" target="_blank">10- Exploring Data in Pandas</a></li>  
 <li><a href="https://drfeinberg.github.io/PNB-2A03/Class-11-AnalyzingDataInPandas.html" target="_blank">11-Analyzing Data in Panadas</a></li>  
-<li><a href="https://drfeinberg.github.io/PNB-2A03/Class-12-PlottingDataInPython.html" target="_blank">12-Analyzing Data in Panadas</a></li>  
+<li><a href="https://drfeinberg.github.io/PNB-2A03/Class-12-PlottingDataInPython.html" target="_blank">12-Plotting Data in Python</a></li>  
