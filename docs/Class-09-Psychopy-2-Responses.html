@@ -13326,7 +13326,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data_dictionary</span> <span class="o">=</span> <span class="p">{</span>
@@ -13350,7 +13350,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">random</span>
@@ -13397,73 +13397,16 @@ div#notebook {
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>164.3222 	WARNING 	Monitor specification not found. Creating a temporary one...
-164.5078 	WARNING 	The size of the gamma ramp was reported as 0. This can mean that gamma settings have no effect. Proceeding with a default gamma ramp size.
-164.5083 	WARNING 	The size of the gamma ramp was reported as 0. This can mean that gamma settings have no effect. Proceeding with a default gamma ramp size.
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span>
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[10]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>[{&#39;keys_pressed&#39;: &#39;r&#39;,
-  &#39;reaction_time&#39;: 0.40850471099838614,
-  &#39;response_correct&#39;: &#39;incorrect&#39;},
- {&#39;keys_pressed&#39;: &#39;r&#39;,
-  &#39;reaction_time&#39;: 0.40850471099838614,
-  &#39;response_correct&#39;: &#39;incorrect&#39;},
- {&#39;keys_pressed&#39;: &#39;r&#39;,
-  &#39;reaction_time&#39;: 0.40850471099838614,
-  &#39;response_correct&#39;: &#39;incorrect&#39;},
- {&#39;keys_pressed&#39;: &#39;r&#39;,
-  &#39;reaction_time&#39;: 0.40850471099838614,
-  &#39;response_correct&#39;: &#39;incorrect&#39;},
- {&#39;keys_pressed&#39;: &#39;r&#39;,
-  &#39;reaction_time&#39;: 0.40850471099838614,
-  &#39;response_correct&#39;: &#39;incorrect&#39;},
- {&#39;keys_pressed&#39;: &#39;r&#39;,
-  &#39;reaction_time&#39;: 0.40850471099838614,
-  &#39;response_correct&#39;: &#39;incorrect&#39;}]</pre>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -13514,7 +13457,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">random</span>
@@ -13528,43 +13471,53 @@ div#notebook {
 
 <span class="n">current_participant</span> <span class="o">=</span> <span class="n">get_id</span><span class="p">()</span>
 
+<span class="c1">#################################################</span>
+<span class="c1"># Define Trials</span>
+
 <span class="n">trialList</span> <span class="o">=</span> <span class="p">[{</span><span class="s1">&#39;text&#39;</span><span class="p">:</span> <span class="s1">&#39;red&#39;</span><span class="p">,</span> <span class="s1">&#39;letterColour&#39;</span><span class="p">:</span> <span class="s1">&#39;red&#39;</span><span class="p">,</span> <span class="s1">&#39;correctResponse&#39;</span><span class="p">:</span> <span class="s1">&#39;r&#39;</span><span class="p">},</span>
     <span class="p">{</span><span class="s1">&#39;text&#39;</span><span class="p">:</span> <span class="s1">&#39;red&#39;</span><span class="p">,</span> <span class="s1">&#39;letterColour&#39;</span><span class="p">:</span> <span class="s1">&#39;green&#39;</span><span class="p">,</span> <span class="s1">&#39;correctResponse&#39;</span><span class="p">:</span> <span class="s1">&#39;r&#39;</span><span class="p">},</span>
     <span class="p">{</span><span class="s1">&#39;text&#39;</span><span class="p">:</span> <span class="s1">&#39;green&#39;</span><span class="p">,</span> <span class="s1">&#39;letterColour&#39;</span><span class="p">:</span> <span class="s1">&#39;green&#39;</span><span class="p">,</span> <span class="s1">&#39;correctResponse&#39;</span><span class="p">:</span> <span class="s1">&#39;g&#39;</span><span class="p">},</span>
     <span class="p">{</span><span class="s1">&#39;text&#39;</span><span class="p">:</span> <span class="s1">&#39;green&#39;</span><span class="p">,</span> <span class="s1">&#39;letterColour&#39;</span><span class="p">:</span> <span class="s1">&#39;blue&#39;</span><span class="p">,</span> <span class="s1">&#39;correctResponse&#39;</span><span class="p">:</span> <span class="s1">&#39;g&#39;</span><span class="p">},</span>
     <span class="p">{</span><span class="s1">&#39;text&#39;</span><span class="p">:</span> <span class="s1">&#39;blue&#39;</span><span class="p">,</span> <span class="s1">&#39;letterColour&#39;</span><span class="p">:</span> <span class="s1">&#39;blue&#39;</span><span class="p">,</span> <span class="s1">&#39;correctResponse&#39;</span><span class="p">:</span> <span class="s1">&#39;b&#39;</span><span class="p">},</span>
     <span class="p">{</span><span class="s1">&#39;text&#39;</span><span class="p">:</span> <span class="s1">&#39;blue&#39;</span><span class="p">,</span> <span class="s1">&#39;letterColour&#39;</span><span class="p">:</span> <span class="s1">&#39;red&#39;</span><span class="p">,</span> <span class="s1">&#39;correctResponse&#39;</span><span class="p">:</span> <span class="s1">&#39;b&#39;</span><span class="p">}]</span>
+<span class="c1">#################################################</span>
 
+
+<span class="c1">#################################################</span>
+<span class="c1"># Initialize trials</span>
+<span class="n">win</span> <span class="o">=</span> <span class="n">visual</span><span class="o">.</span><span class="n">Window</span><span class="p">([</span><span class="mi">400</span><span class="p">,</span> <span class="mi">400</span><span class="p">])</span>  <span class="c1"># moved this from the trials to here since we&#39;re only creating 1 window</span>
 <span class="n">random</span><span class="o">.</span><span class="n">shuffle</span><span class="p">(</span><span class="n">trialList</span><span class="p">)</span>  <span class="c1"># randomize the order of stimuli presentation</span>
 <span class="n">data</span> <span class="o">=</span> <span class="p">[]</span> <span class="c1"># declare our list data</span>
-<span class="n">data_dictionary</span> <span class="o">=</span> <span class="p">{</span>
-    <span class="s1">&#39;participant&#39;</span><span class="p">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
-    <span class="s1">&#39;keys_pressed&#39;</span><span class="p">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
-    <span class="s1">&#39;reaction_time&#39;</span><span class="p">:</span> <span class="kc">None</span><span class="p">,</span>
-    <span class="s1">&#39;response_correct&#39;</span><span class="p">:</span> <span class="s2">&quot;&quot;</span>
-<span class="p">}</span>
-<span class="n">win</span> <span class="o">=</span> <span class="n">visual</span><span class="o">.</span><span class="n">Window</span><span class="p">([</span><span class="mi">400</span><span class="p">,</span> <span class="mi">400</span><span class="p">])</span>
 <span class="n">message</span> <span class="o">=</span> <span class="n">visual</span><span class="o">.</span><span class="n">TextStim</span><span class="p">(</span><span class="n">win</span><span class="p">,</span> <span class="n">text</span><span class="o">=</span><span class="s2">&quot;Get ready, we&#39;re about to begin&quot;</span><span class="p">)</span>  <span class="c1"># create a message that is a visual text stimulus</span>
 <span class="n">message</span><span class="o">.</span><span class="n">autoDraw</span> <span class="o">=</span> <span class="kc">True</span>  <span class="c1"># Automatically draw that message on the window</span>
+<span class="n">trial_number</span> <span class="o">=</span> <span class="mi">0</span> <span class="c1"># initialize trial tracker</span>
+<span class="c1">#################################################</span>
 
+
+<span class="c1">#################################################</span>
+<span class="c1"># Run trials</span>
 <span class="k">for</span> <span class="n">trial</span> <span class="ow">in</span> <span class="n">trialList</span><span class="p">:</span>
+    <span class="n">data_dictionary</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="n">trial_number</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="n">data_dictionary</span><span class="p">[</span><span class="s1">&#39;Trial Number&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">trial_number</span>
     <span class="n">reaction_time_clock</span> <span class="o">=</span> <span class="n">core</span><span class="o">.</span><span class="n">Clock</span><span class="p">()</span>  <span class="c1"># create a reaction_time_clock object</span>
     <span class="n">message</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="n">trial</span><span class="p">[</span><span class="s1">&#39;text&#39;</span><span class="p">]</span>  <span class="c1"># make a </span>
     <span class="n">message</span><span class="o">.</span><span class="n">color</span> <span class="o">=</span> <span class="n">trial</span><span class="p">[</span><span class="s1">&#39;letterColour&#39;</span><span class="p">]</span>
     <span class="n">win</span><span class="o">.</span><span class="n">flip</span><span class="p">()</span>  <span class="c1"># Show the window</span>
-    <span class="n">keys</span> <span class="o">=</span> <span class="n">event</span><span class="o">.</span><span class="n">waitKeys</span><span class="p">(</span><span class="n">keyList</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;r&quot;</span><span class="p">,</span> <span class="s2">&quot;g&quot;</span><span class="p">,</span> <span class="s2">&quot;b&quot;</span><span class="p">],</span> <span class="n">timeStamped</span><span class="o">=</span><span class="n">reaction_time_clock</span><span class="p">)</span> <span class="c1"># record the time from the creation of the clock until the button was pressed        </span>
+    <span class="n">keys</span> <span class="o">=</span> <span class="n">event</span><span class="o">.</span><span class="n">waitKeys</span><span class="p">(</span><span class="n">keyList</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;r&quot;</span><span class="p">,</span> <span class="s2">&quot;g&quot;</span><span class="p">,</span> <span class="s2">&quot;b&quot;</span><span class="p">],</span> <span class="n">timeStamped</span><span class="o">=</span><span class="n">reaction_time_clock</span><span class="p">)</span> <span class="c1"># record the time from the creation of the clock until the button was pressed</span>
     <span class="k">if</span> <span class="n">keys</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="n">trial</span><span class="p">[</span><span class="s1">&#39;correctResponse&#39;</span><span class="p">]:</span> 
-         <span class="n">data_dictionary</span><span class="p">[</span><span class="s1">&#39;response_correct&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;correct&quot;</span>
+         <span class="n">data_dictionary</span><span class="p">[</span><span class="s1">&#39;Response Correct&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;correct&quot;</span>
     <span class="k">elif</span> <span class="n">keys</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">!=</span> <span class="n">trial</span><span class="p">[</span><span class="s1">&#39;correctResponse&#39;</span><span class="p">]:</span>
-         <span class="n">data_dictionary</span><span class="p">[</span><span class="s1">&#39;response_correct&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;incorrect&quot;</span>
+         <span class="n">data_dictionary</span><span class="p">[</span><span class="s1">&#39;Response Correct&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;incorrect&quot;</span>
     <span class="k">else</span><span class="p">:</span>
-         <span class="n">data_dictionary</span><span class="p">[</span><span class="s1">&#39;response_correct&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;N/A&quot;</span>
-    <span class="n">data_dictionary</span><span class="p">[</span><span class="s1">&#39;keys_pressed&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">keys</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
-    <span class="n">data_dictionary</span><span class="p">[</span><span class="s1">&#39;reaction_time&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">keys</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span>
-    <span class="n">data_dictionary</span><span class="p">[</span><span class="s1">&#39;participant&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">current_participant</span>
+         <span class="n">data_dictionary</span><span class="p">[</span><span class="s1">&#39;Response Correct&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;N/A&quot;</span>
+    <span class="n">data_dictionary</span><span class="p">[</span><span class="s1">&#39;Keys Pressed&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">keys</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
+    <span class="n">data_dictionary</span><span class="p">[</span><span class="s1">&#39;Reaction Time&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">keys</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span>
+    <span class="n">data_dictionary</span><span class="p">[</span><span class="s1">&#39;Participant&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">current_participant</span>
+    <span class="n">data_dictionary</span><span class="p">[</span><span class="s1">&#39;Condition&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">condition_number</span>
     <span class="n">data</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">data_dictionary</span><span class="p">)</span>
-    
-    
+<span class="c1">#################################################    </span>
+
 <span class="n">win</span><span class="o">.</span><span class="n">close</span><span class="p">()</span> <span class="c1"># close the window called `win`</span>
 </pre></div>
 
@@ -13572,32 +13525,10 @@ div#notebook {
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Please type your ID number:
-Feinberg
-349.0085 	WARNING 	Monitor specification not found. Creating a temporary one...
-349.1746 	WARNING 	The size of the gamma ramp was reported as 0. This can mean that gamma settings have no effect. Proceeding with a default gamma ramp size.
-349.1749 	WARNING 	The size of the gamma ramp was reported as 0. This can mean that gamma settings have no effect. Proceeding with a default gamma ramp size.
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span>
@@ -13607,52 +13538,15 @@ Feinberg
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[12]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>[{&#39;participant&#39;: &#39;Feinberg&#39;,
-  &#39;keys_pressed&#39;: &#39;b&#39;,
-  &#39;reaction_time&#39;: 0.13949154500005534,
-  &#39;response_correct&#39;: &#39;incorrect&#39;},
- {&#39;participant&#39;: &#39;Feinberg&#39;,
-  &#39;keys_pressed&#39;: &#39;b&#39;,
-  &#39;reaction_time&#39;: 0.13949154500005534,
-  &#39;response_correct&#39;: &#39;incorrect&#39;},
- {&#39;participant&#39;: &#39;Feinberg&#39;,
-  &#39;keys_pressed&#39;: &#39;b&#39;,
-  &#39;reaction_time&#39;: 0.13949154500005534,
-  &#39;response_correct&#39;: &#39;incorrect&#39;},
- {&#39;participant&#39;: &#39;Feinberg&#39;,
-  &#39;keys_pressed&#39;: &#39;b&#39;,
-  &#39;reaction_time&#39;: 0.13949154500005534,
-  &#39;response_correct&#39;: &#39;incorrect&#39;},
- {&#39;participant&#39;: &#39;Feinberg&#39;,
-  &#39;keys_pressed&#39;: &#39;b&#39;,
-  &#39;reaction_time&#39;: 0.13949154500005534,
-  &#39;response_correct&#39;: &#39;incorrect&#39;},
- {&#39;participant&#39;: &#39;Feinberg&#39;,
-  &#39;keys_pressed&#39;: &#39;b&#39;,
-  &#39;reaction_time&#39;: 0.13949154500005534,
-  &#39;response_correct&#39;: &#39;incorrect&#39;}]</pre>
 </div>
-
-</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="That-was-legit,-but-that's-not-the-experience-we-want-our-participant-to-have.">That was legit, but that's not the experience we want our participant to have.<a class="anchor-link" href="#That-was-legit,-but-that's-not-the-experience-we-want-our-participant-to-have.">&#182;</a></h3><p>They might be put off by some odd command line interface to type in their participant ID.  Psychopy has a module that can makes a dialogue box for the participant to type their information into.  That module is the <code>gui</code> module.  We can add fields to the Dialogue box and record different information about the participant.</p>
 
 </div>
 </div>
-
-</div>### That was legit, but that's not the experience we want our participant to have.  
-
-They might be put off by some odd command line interface to type in their participant ID.  Psychopy has a module that can makes a dialogue box for the participant to type their information into.  That module is the `gui` module.  We can add fields to the Dialogue box and record different information about the participant.
+</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -13769,7 +13663,7 @@ They might be put off by some odd command line interface to type in their partic
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">random</span>
@@ -13777,7 +13671,9 @@ They might be put off by some odd command line interface to type in their partic
 
 
 
-<span class="k">def</span> <span class="nf">get_id</span><span class="p">():</span>  <span class="c1"># We can put the gui code into a function</span>
+<span class="c1">#################################################</span>
+<span class="c1"># Get Participant ID</span>
+<span class="k">def</span> <span class="nf">get_id</span><span class="p">():</span>  <span class="c1"># GUI Dialogue Box</span>
     <span class="n">mygui</span> <span class="o">=</span> <span class="n">gui</span><span class="o">.</span><span class="n">Dlg</span><span class="p">()</span>
     <span class="n">mygui</span><span class="o">.</span><span class="n">addField</span><span class="p">(</span><span class="s2">&quot;Subject ID:&quot;</span><span class="p">)</span>
     <span class="n">mygui</span><span class="o">.</span><span class="n">addField</span><span class="p">(</span><span class="s2">&quot;Condition Num:&quot;</span><span class="p">)</span>
@@ -13788,19 +13684,34 @@ They might be put off by some odd command line interface to type in their partic
 
 <span class="n">current_participant</span><span class="p">,</span> <span class="n">condition_number</span> <span class="o">=</span> <span class="n">get_id</span><span class="p">()</span>
 
+<span class="c1">#################################################</span>
+
+
+<span class="c1">#################################################</span>
+<span class="c1"># Define Trials</span>
+
 <span class="n">trialList</span> <span class="o">=</span> <span class="p">[{</span><span class="s1">&#39;text&#39;</span><span class="p">:</span> <span class="s1">&#39;red&#39;</span><span class="p">,</span> <span class="s1">&#39;letterColour&#39;</span><span class="p">:</span> <span class="s1">&#39;red&#39;</span><span class="p">,</span> <span class="s1">&#39;correctResponse&#39;</span><span class="p">:</span> <span class="s1">&#39;r&#39;</span><span class="p">},</span>
     <span class="p">{</span><span class="s1">&#39;text&#39;</span><span class="p">:</span> <span class="s1">&#39;red&#39;</span><span class="p">,</span> <span class="s1">&#39;letterColour&#39;</span><span class="p">:</span> <span class="s1">&#39;green&#39;</span><span class="p">,</span> <span class="s1">&#39;correctResponse&#39;</span><span class="p">:</span> <span class="s1">&#39;r&#39;</span><span class="p">},</span>
     <span class="p">{</span><span class="s1">&#39;text&#39;</span><span class="p">:</span> <span class="s1">&#39;green&#39;</span><span class="p">,</span> <span class="s1">&#39;letterColour&#39;</span><span class="p">:</span> <span class="s1">&#39;green&#39;</span><span class="p">,</span> <span class="s1">&#39;correctResponse&#39;</span><span class="p">:</span> <span class="s1">&#39;g&#39;</span><span class="p">},</span>
     <span class="p">{</span><span class="s1">&#39;text&#39;</span><span class="p">:</span> <span class="s1">&#39;green&#39;</span><span class="p">,</span> <span class="s1">&#39;letterColour&#39;</span><span class="p">:</span> <span class="s1">&#39;blue&#39;</span><span class="p">,</span> <span class="s1">&#39;correctResponse&#39;</span><span class="p">:</span> <span class="s1">&#39;g&#39;</span><span class="p">},</span>
     <span class="p">{</span><span class="s1">&#39;text&#39;</span><span class="p">:</span> <span class="s1">&#39;blue&#39;</span><span class="p">,</span> <span class="s1">&#39;letterColour&#39;</span><span class="p">:</span> <span class="s1">&#39;blue&#39;</span><span class="p">,</span> <span class="s1">&#39;correctResponse&#39;</span><span class="p">:</span> <span class="s1">&#39;b&#39;</span><span class="p">},</span>
     <span class="p">{</span><span class="s1">&#39;text&#39;</span><span class="p">:</span> <span class="s1">&#39;blue&#39;</span><span class="p">,</span> <span class="s1">&#39;letterColour&#39;</span><span class="p">:</span> <span class="s1">&#39;red&#39;</span><span class="p">,</span> <span class="s1">&#39;correctResponse&#39;</span><span class="p">:</span> <span class="s1">&#39;b&#39;</span><span class="p">}]</span>
+<span class="c1">#################################################</span>
 
+
+<span class="c1">#################################################</span>
+<span class="c1"># Initialize trials</span>
+<span class="n">win</span> <span class="o">=</span> <span class="n">visual</span><span class="o">.</span><span class="n">Window</span><span class="p">([</span><span class="mi">400</span><span class="p">,</span> <span class="mi">400</span><span class="p">])</span>  <span class="c1"># moved this from the trials to here since we&#39;re only creating 1 window</span>
 <span class="n">random</span><span class="o">.</span><span class="n">shuffle</span><span class="p">(</span><span class="n">trialList</span><span class="p">)</span>  <span class="c1"># randomize the order of stimuli presentation</span>
 <span class="n">data</span> <span class="o">=</span> <span class="p">[]</span> <span class="c1"># declare our list data</span>
-<span class="n">win</span> <span class="o">=</span> <span class="n">visual</span><span class="o">.</span><span class="n">Window</span><span class="p">([</span><span class="mi">400</span><span class="p">,</span> <span class="mi">400</span><span class="p">])</span>
 <span class="n">message</span> <span class="o">=</span> <span class="n">visual</span><span class="o">.</span><span class="n">TextStim</span><span class="p">(</span><span class="n">win</span><span class="p">,</span> <span class="n">text</span><span class="o">=</span><span class="s2">&quot;Get ready, we&#39;re about to begin&quot;</span><span class="p">)</span>  <span class="c1"># create a message that is a visual text stimulus</span>
 <span class="n">message</span><span class="o">.</span><span class="n">autoDraw</span> <span class="o">=</span> <span class="kc">True</span>  <span class="c1"># Automatically draw that message on the window</span>
 <span class="n">trial_number</span> <span class="o">=</span> <span class="mi">0</span> <span class="c1"># initialize trial tracker</span>
+<span class="c1">#################################################</span>
+
+
+<span class="c1">#################################################</span>
+<span class="c1"># Run trials</span>
 <span class="k">for</span> <span class="n">trial</span> <span class="ow">in</span> <span class="n">trialList</span><span class="p">:</span>
     <span class="n">data_dictionary</span> <span class="o">=</span> <span class="p">{}</span>
     <span class="n">trial_number</span> <span class="o">+=</span> <span class="mi">1</span>
@@ -13821,7 +13732,8 @@ They might be put off by some odd command line interface to type in their partic
     <span class="n">data_dictionary</span><span class="p">[</span><span class="s1">&#39;Participant&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">current_participant</span>
     <span class="n">data_dictionary</span><span class="p">[</span><span class="s1">&#39;Condition&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">condition_number</span>
     <span class="n">data</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">data_dictionary</span><span class="p">)</span>
-    
+<span class="c1">#################################################    </span>
+
 <span class="n">win</span><span class="o">.</span><span class="n">close</span><span class="p">()</span> <span class="c1"># close the window called `win`</span>
 </pre></div>
 
@@ -13829,36 +13741,10 @@ They might be put off by some odd command line interface to type in their partic
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>r
-g
-b
-r
-g
-b
-922.8094 	WARNING 	Monitor specification not found. Creating a temporary one...
-923.0851 	WARNING 	The size of the gamma ramp was reported as 0. This can mean that gamma settings have no effect. Proceeding with a default gamma ramp size.
-923.0868 	WARNING 	The size of the gamma ramp was reported as 0. This can mean that gamma settings have no effect. Proceeding with a default gamma ramp size.
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span>
@@ -13868,54 +13754,48 @@ b
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Awesomesauce!">Awesomesauce!<a class="anchor-link" href="#Awesomesauce!">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Why-are-we-using-two-brackets-to-access-'Keys-Pressed'-and-'Reaction-Time'?">Why are we using two brackets to access 'Keys Pressed' and 'Reaction Time'?<a class="anchor-link" href="#Why-are-we-using-two-brackets-to-access-'Keys-Pressed'-and-'Reaction-Time'?">&#182;</a></h3><p><code>data_dictionary['Keys Pressed'] = keys[0][0]</code><br>
+<code>data_dictionary['Reaction Time'] = keys[0][1]</code></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">keys</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
 <div class="output_wrapper">
 <div class="output">
 
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[23]:</div>
+    <div class="prompt output_prompt">Out[9]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>[{&#39;Trial Number&#39;: 1,
-  &#39;Response Correct&#39;: &#39;correct&#39;,
-  &#39;Keys Pressed&#39;: &#39;r&#39;,
-  &#39;Reaction Time&#39;: 2.3566792659985367,
-  &#39;Participant&#39;: &#39;Test&#39;,
-  &#39;Condition&#39;: 33},
- {&#39;Trial Number&#39;: 2,
-  &#39;Response Correct&#39;: &#39;incorrect&#39;,
-  &#39;Keys Pressed&#39;: &#39;g&#39;,
-  &#39;Reaction Time&#39;: 1.4210756350003066,
-  &#39;Participant&#39;: &#39;Test&#39;,
-  &#39;Condition&#39;: 33},
- {&#39;Trial Number&#39;: 3,
-  &#39;Response Correct&#39;: &#39;correct&#39;,
-  &#39;Keys Pressed&#39;: &#39;b&#39;,
-  &#39;Reaction Time&#39;: 0.33196463599961135,
-  &#39;Participant&#39;: &#39;Test&#39;,
-  &#39;Condition&#39;: 33},
- {&#39;Trial Number&#39;: 4,
-  &#39;Response Correct&#39;: &#39;incorrect&#39;,
-  &#39;Keys Pressed&#39;: &#39;r&#39;,
-  &#39;Reaction Time&#39;: 0.46472026699848357,
-  &#39;Participant&#39;: &#39;Test&#39;,
-  &#39;Condition&#39;: 33},
- {&#39;Trial Number&#39;: 5,
-  &#39;Response Correct&#39;: &#39;incorrect&#39;,
-  &#39;Keys Pressed&#39;: &#39;g&#39;,
-  &#39;Reaction Time&#39;: 0.23882433799735736,
-  &#39;Participant&#39;: &#39;Test&#39;,
-  &#39;Condition&#39;: 33},
- {&#39;Trial Number&#39;: 6,
-  &#39;Response Correct&#39;: &#39;incorrect&#39;,
-  &#39;Keys Pressed&#39;: &#39;b&#39;,
-  &#39;Reaction Time&#39;: 0.3022041869990062,
-  &#39;Participant&#39;: &#39;Test&#39;,
-  &#39;Condition&#39;: 33}]</pre>
+<pre>[[&#39;g&#39;, 0.2042279829997824]]</pre>
 </div>
 
 </div>
@@ -13927,9 +13807,84 @@ b
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Awesomesauce!">Awesomesauce!<a class="anchor-link" href="#Awesomesauce!">&#182;</a></h3>
+<p>Turns out that keys is a list of lists.  Keys  is a list containing the key pressed and the reaction time.  Keys Pressed is a list of all the keys we pressed... for if someone mashes the keyboard and hits more than 1 key at a time.</p>
+
 </div>
 </div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">keys</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[10]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>[&#39;g&#39;, 0.2042279829997824]</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>That got us the inner list, but if we want the actual key pressed, we need the 0th item in the inner list. To do that, we use the second bracket.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">keys</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[11]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&#39;g&#39;</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
@@ -14072,7 +14027,7 @@ b
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[31]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">random</span>
@@ -14158,91 +14113,16 @@ b
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>1542.7848 	WARNING 	Monitor specification not found. Creating a temporary one...
-1543.0633 	WARNING 	The size of the gamma ramp was reported as 0. This can mean that gamma settings have no effect. Proceeding with a default gamma ramp size.
-1543.0645 	WARNING 	The size of the gamma ramp was reported as 0. This can mean that gamma settings have no effect. Proceeding with a default gamma ramp size.
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[32]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span>
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[32]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>[{&#39;Trial Number&#39;: 1,
-  &#39;Response Correct&#39;: &#39;incorrect&#39;,
-  &#39;Keys Pressed&#39;: &#39;b&#39;,
-  &#39;Reaction Time&#39;: 0.15438912999888998,
-  &#39;Participant&#39;: &#39;Feinberg&#39;,
-  &#39;Condition&#39;: 1},
- {&#39;Trial Number&#39;: 2,
-  &#39;Response Correct&#39;: &#39;correct&#39;,
-  &#39;Keys Pressed&#39;: &#39;b&#39;,
-  &#39;Reaction Time&#39;: 0.324250192999898,
-  &#39;Participant&#39;: &#39;Feinberg&#39;,
-  &#39;Condition&#39;: 1},
- {&#39;Trial Number&#39;: 3,
-  &#39;Response Correct&#39;: &#39;correct&#39;,
-  &#39;Keys Pressed&#39;: &#39;b&#39;,
-  &#39;Reaction Time&#39;: 0.12393583000084618,
-  &#39;Participant&#39;: &#39;Feinberg&#39;,
-  &#39;Condition&#39;: 1},
- {&#39;Trial Number&#39;: 4,
-  &#39;Response Correct&#39;: &#39;incorrect&#39;,
-  &#39;Keys Pressed&#39;: &#39;b&#39;,
-  &#39;Reaction Time&#39;: 0.13924433699867222,
-  &#39;Participant&#39;: &#39;Feinberg&#39;,
-  &#39;Condition&#39;: 1},
- {&#39;Trial Number&#39;: 5,
-  &#39;Response Correct&#39;: &#39;incorrect&#39;,
-  &#39;Keys Pressed&#39;: &#39;b&#39;,
-  &#39;Reaction Time&#39;: 0.1299238610008615,
-  &#39;Participant&#39;: &#39;Feinberg&#39;,
-  &#39;Condition&#39;: 1},
- {&#39;Trial Number&#39;: 6,
-  &#39;Response Correct&#39;: &#39;incorrect&#39;,
-  &#39;Keys Pressed&#39;: &#39;b&#39;,
-  &#39;Reaction Time&#39;: 0.41352905000167084,
-  &#39;Participant&#39;: &#39;Feinberg&#39;,
-  &#39;Condition&#39;: 1}]</pre>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -14264,7 +14144,7 @@ b
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[36]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">csv</span>
@@ -14309,7 +14189,7 @@ b
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[37]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;data.csv&#39;</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">output_file</span><span class="p">:</span>
@@ -14332,7 +14212,7 @@ b
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[39]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;data.csv&#39;</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">csvFile</span><span class="p">:</span>
@@ -14340,6 +14220,83 @@ b
     <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">reader</span><span class="p">:</span>
         <span class="nb">print</span><span class="p">(</span><span class="n">row</span><span class="p">)</span>
 <span class="n">csvFile</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Woah!--We-just-programmed-the-Stroop-Task">Woah!  We just programmed the Stroop Task<a class="anchor-link" href="#Woah!--We-just-programmed-the-Stroop-Task">&#182;</a></h2><p>What's the stroop task?  Well... we just did it.  We show a set of words that are the names of colours.  The text they are printed in is either the same colour as the text, or a different colour.  When they are incongruent, it takes longer to read than when they are congruent.</p>
+<p>Want to read the original paper?
+Stroop, J. R. (1935). Studies of interference in serial verbal reactions. Journal of experimental psychology, 18(6), 643.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Display-a-picture">Display a picture<a class="anchor-link" href="#Display-a-picture">&#182;</a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">psychopy</span> <span class="k">import</span> <span class="n">core</span><span class="p">,</span> <span class="n">visual</span>
+<span class="n">win</span> <span class="o">=</span> <span class="n">visual</span><span class="o">.</span><span class="n">Window</span><span class="p">([</span><span class="mi">800</span><span class="p">,</span> <span class="mi">800</span><span class="p">])</span>  <span class="c1"># make a window</span>
+<span class="n">message</span> <span class="o">=</span> <span class="n">visual</span><span class="o">.</span><span class="n">TextStim</span><span class="p">(</span><span class="n">win</span><span class="o">=</span><span class="n">win</span><span class="p">,</span> <span class="n">alignHoriz</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span> <span class="n">pos</span><span class="o">=</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mf">0.75</span><span class="p">))</span>
+<span class="n">message</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="s2">&quot;How happy does this person look?&quot;</span>
+<span class="n">message</span><span class="o">.</span><span class="n">draw</span><span class="p">()</span>
+<span class="n">stimulus</span> <span class="o">=</span> <span class="n">visual</span><span class="o">.</span><span class="n">ImageStim</span><span class="p">(</span><span class="n">win</span><span class="p">,</span> <span class="s1">&#39;img/rickroll.jpg&#39;</span><span class="p">,</span> <span class="n">pos</span><span class="o">=</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">))</span>
+<span class="n">stimulus</span><span class="o">.</span><span class="n">draw</span><span class="p">()</span>
+<span class="n">win</span><span class="o">.</span><span class="n">flip</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Rating-Scale-with-image-&amp;-question">Rating Scale with image &amp; question<a class="anchor-link" href="#Rating-Scale-with-image-&amp;-question">&#182;</a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">psychopy</span> <span class="k">import</span> <span class="n">core</span><span class="p">,</span> <span class="n">visual</span>
+<span class="n">win</span> <span class="o">=</span> <span class="n">visual</span><span class="o">.</span><span class="n">Window</span><span class="p">([</span><span class="mi">1024</span><span class="p">,</span> <span class="mi">1024</span><span class="p">])</span>  <span class="c1"># make a window</span>
+<span class="n">message</span> <span class="o">=</span> <span class="n">visual</span><span class="o">.</span><span class="n">TextStim</span><span class="p">(</span><span class="n">win</span><span class="o">=</span><span class="n">win</span><span class="p">,</span> <span class="n">alignHoriz</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span> <span class="n">pos</span><span class="o">=</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mf">0.75</span><span class="p">))</span>
+<span class="n">message</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="s2">&quot;How happy does this person look?&quot;</span>
+<span class="n">stimulus</span> <span class="o">=</span> <span class="n">visual</span><span class="o">.</span><span class="n">ImageStim</span><span class="p">(</span><span class="n">win</span><span class="p">,</span> <span class="s1">&#39;img/rickroll.jpg&#39;</span><span class="p">,</span> <span class="n">pos</span><span class="o">=</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">))</span>
+<span class="n">scales</span> <span class="o">=</span> <span class="s1">&#39;1=Not at all Happy                       7=Very Happy&#39;</span>
+
+<span class="n">ratingScale</span> <span class="o">=</span> <span class="n">visual</span><span class="o">.</span><span class="n">RatingScale</span><span class="p">(</span><span class="n">win</span><span class="o">=</span><span class="n">win</span><span class="p">,</span> <span class="n">pos</span><span class="o">=</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="o">-</span><span class="mf">0.75</span><span class="p">),</span> <span class="n">scale</span><span class="o">=</span><span class="n">scales</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="mf">0.75</span><span class="p">,</span> <span class="n">stretch</span><span class="o">=</span><span class="mf">1.5</span><span class="p">)</span>
+
+<span class="k">while</span> <span class="n">ratingScale</span><span class="o">.</span><span class="n">noResponse</span><span class="p">:</span>
+    <span class="n">message</span><span class="o">.</span><span class="n">draw</span><span class="p">()</span>
+    <span class="n">stimulus</span><span class="o">.</span><span class="n">draw</span><span class="p">()</span>
+    <span class="n">ratingScale</span><span class="o">.</span><span class="n">draw</span><span class="p">()</span>
+    <span class="n">win</span><span class="o">.</span><span class="n">flip</span><span class="p">()</span>
+<span class="n">rating</span> <span class="o">=</span> <span class="n">ratingScale</span><span class="o">.</span><span class="n">getRating</span><span class="p">()</span>
+<span class="n">decisionTime</span> <span class="o">=</span> <span class="n">ratingScale</span><span class="o">.</span><span class="n">getRT</span><span class="p">()</span>
+<span class="n">choiceHistory</span> <span class="o">=</span> <span class="n">ratingScale</span><span class="o">.</span><span class="n">getHistory</span><span class="p">()</span>
+<span class="n">win</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;rating&#39;</span><span class="p">,</span> <span class="n">rating</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;decisionTime&#39;</span><span class="p">,</span> <span class="n">decisionTime</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;choiceHistory&#39;</span><span class="p">,</span><span class="n">choiceHistory</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -14356,13 +14313,12 @@ b
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[&#39;Trial Number&#39;, &#39;Response Correct&#39;, &#39;Keys Pressed&#39;, &#39;Reaction Time&#39;, &#39;Participant&#39;, &#39;Condition&#39;]
-[&#39;1&#39;, &#39;incorrect&#39;, &#39;b&#39;, &#39;0.15438912999888998&#39;, &#39;Feinberg&#39;, &#39;1&#39;]
-[&#39;2&#39;, &#39;correct&#39;, &#39;b&#39;, &#39;0.324250192999898&#39;, &#39;Feinberg&#39;, &#39;1&#39;]
-[&#39;3&#39;, &#39;correct&#39;, &#39;b&#39;, &#39;0.12393583000084618&#39;, &#39;Feinberg&#39;, &#39;1&#39;]
-[&#39;4&#39;, &#39;incorrect&#39;, &#39;b&#39;, &#39;0.13924433699867222&#39;, &#39;Feinberg&#39;, &#39;1&#39;]
-[&#39;5&#39;, &#39;incorrect&#39;, &#39;b&#39;, &#39;0.1299238610008615&#39;, &#39;Feinberg&#39;, &#39;1&#39;]
-[&#39;6&#39;, &#39;incorrect&#39;, &#39;b&#39;, &#39;0.41352905000167084&#39;, &#39;Feinberg&#39;, &#39;1&#39;]
+<pre>60.5553 	WARNING 	Monitor specification not found. Creating a temporary one...
+60.7361 	WARNING 	The size of the gamma ramp was reported as 0. This can mean that gamma settings have no effect. Proceeding with a default gamma ramp size.
+60.7364 	WARNING 	The size of the gamma ramp was reported as 0. This can mean that gamma settings have no effect. Proceeding with a default gamma ramp size.
+rating 3
+decisionTime 5.942
+choiceHistory [(None, 0.0), (3, 2.91), (4, 3.549), (5, 4.035), (6, 4.099), (1, 5.106), (2, 5.526), (3, 5.556), (3, 5.942)]
 </pre>
 </div>
 </div>
@@ -14374,12 +14330,55 @@ b
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Woah!--We-just-programmed-the-Stroop-Task">Woah!  We just programmed the Stroop Task<a class="anchor-link" href="#Woah!--We-just-programmed-the-Stroop-Task">&#182;</a></h2><p>What's the stroop task?  Well... we just did it.  We show a set of words that are the names of colours.  The text they are printed in is either the same colour as the text, or a different colour.  When they are incongruent, it takes longer to read than when they are congruent.</p>
-<p>Want to read the original paper?
-Stroop, J. R. (1935). Studies of interference in serial verbal reactions. Journal of experimental psychology, 18(6), 643.</p>
+<h1 id="Sound-in-Psychopy">Sound in Psychopy<a class="anchor-link" href="#Sound-in-Psychopy">&#182;</a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">psychopy</span> <span class="k">import</span> <span class="n">core</span><span class="p">,</span> <span class="n">sound</span><span class="p">,</span> <span class="n">visual</span><span class="p">,</span> <span class="n">event</span>
+
+<span class="n">win</span> <span class="o">=</span> <span class="n">visual</span><span class="o">.</span><span class="n">Window</span><span class="p">([</span><span class="mi">1024</span><span class="p">,</span> <span class="mi">1024</span><span class="p">])</span>  <span class="c1"># make a window</span>
+<span class="n">message</span> <span class="o">=</span> <span class="n">visual</span><span class="o">.</span><span class="n">TextStim</span><span class="p">(</span><span class="n">win</span><span class="o">=</span><span class="n">win</span><span class="p">,</span> <span class="n">alignHoriz</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span> <span class="n">pos</span><span class="o">=</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mf">0.75</span><span class="p">))</span>
+<span class="n">message</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="s2">&quot;Press space to play the sound&quot;</span>
+<span class="n">message</span><span class="o">.</span><span class="n">draw</span><span class="p">()</span>
+<span class="n">reaction_time_clock</span> <span class="o">=</span> <span class="n">core</span><span class="o">.</span><span class="n">Clock</span><span class="p">()</span>  <span class="c1"># create a reaction_time_clock object</span>
+<span class="n">mySound</span> <span class="o">=</span> <span class="n">sound</span><span class="o">.</span><span class="n">Sound</span><span class="p">(</span><span class="s1">&#39;/home/david/Desktop/03-01-01-01-01-01-01.wav&#39;</span><span class="p">)</span>
+<span class="n">win</span><span class="o">.</span><span class="n">flip</span><span class="p">()</span>
+<span class="n">keys</span> <span class="o">=</span> <span class="n">event</span><span class="o">.</span><span class="n">waitKeys</span><span class="p">(</span><span class="n">keyList</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;space&quot;</span><span class="p">],</span> <span class="n">timeStamped</span><span class="o">=</span><span class="n">reaction_time_clock</span><span class="p">)</span> <span class="c1"># record the time from the creation of the clock until the button was pressed</span>
+<span class="k">if</span> <span class="s1">&#39;space&#39;</span> <span class="ow">in</span> <span class="n">keys</span><span class="p">[</span><span class="mi">0</span><span class="p">]:</span>
+    <span class="n">mySound</span><span class="o">.</span><span class="n">play</span><span class="p">()</span>
+<span class="n">core</span><span class="o">.</span><span class="n">wait</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+<span class="n">win</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>31.2904 	WARNING 	Monitor specification not found. Creating a temporary one...
+31.4516 	WARNING 	The size of the gamma ramp was reported as 0. This can mean that gamma settings have no effect. Proceeding with a default gamma ramp size.
+31.4519 	WARNING 	The size of the gamma ramp was reported as 0. This can mean that gamma settings have no effect. Proceeding with a default gamma ramp size.
+</pre>
+</div>
+</div>
 
 </div>
 </div>
+
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
